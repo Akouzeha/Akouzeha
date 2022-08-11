@@ -1,0 +1,131 @@
+/* Agencement de la page avec CSS Flexbox */
+@media only screen and (max-width: 760px) {
+    .navi .options2{
+      display: none;
+      }
+    .navi .botton{
+      display: block;
+      margin-right: 30px;
+     }
+     /*.responsive .options2{
+       width: 100%;
+    position: relative;
+    }
+    .responsive .options2 a{
+    display: block;
+    width: auto;
+    text-align: center;
+    }*/
+    }
+    
+    /* End Home Header */
+    
+    /* Home Content */
+      .content{
+        margin: 40px;
+        max-width: 1420px;
+      }
+    
+      .content section{
+        display: flex;
+        width: 100%;
+        margin-top: 40px;
+      }
+      .content section .leftside{
+        width: 30%;
+        float: left;
+        text-align: right;
+    
+      }
+    
+      .content section .leftside img{
+        border-radius: 50%;
+        width: 100px;
+      }
+    
+      .content section .rightside{
+        width:70%;
+        padding: 15px;
+        padding-top: 10px;
+        float: left;
+      }
+    
+      .content section .rightside p{
+        text-align: justify;
+        max-width: 700px;
+        margin: 0px;
+      }
+    
+      @media only screen and (max-width: 760px) {
+      .content section{
+        display: block;
+        width: 100%;
+        margin-top: 20px;
+      }
+      .content section .leftside{
+        width: 100%;
+        text-align: center;
+    
+      }
+    
+      .content section .leftside img{
+        border-radius: 50%;
+        width: 100px;
+      }
+    
+      .content section .rightside{
+        width:100%;
+        padding: 15px;
+        padding-top: 10px;
+      }
+    
+      .content section .rightside p{
+        text-align: justify;
+        max-width: 700px;
+        margin: 0px;
+      }
+    }
+    .responsive .options2{
+        width: 130px;
+     position: absolute;
+     top: 60px;
+     background-color: #c94c4c;
+     display: block !important;
+     right:0px;
+     }
+     .responsive .options2 a{
+     display: flex;
+     width: 100%;
+     text-align: center;
+     }
+     .responsive .botton{
+       display: none;
+       cursor: pointer;
+     }
+     
+     /*test*/
+     
+     .content sect{
+        display: flex;
+        width: 100%;
+        margin-top: 40px;
+      }
+     
+    
+      .content sect .infoside p{
+        /*text-align: justify;*/
+        color : black;
+        padding-top: 0px;
+        padding-right: 0px;
+        margin-right: 0px;
+      }
+      
+         .content sect .infoside p1{
+         text-align: center;
+        color : red;
+        
+      }
+     
+    
+    /* End Home Content */
+    

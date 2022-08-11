@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <title>Mini-project</title>
+    <meta charset="utf-8">
+    <meta name="description" content="Free Web tutorials">
+    <meta name="keywords" content="HTML,CSS,XML,JavaScript">
+    <meta name="author" content="KOUZEHA Ammar & SANAGARI Adama">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="style_general.css" />
+    <link rel="stylesheet" type="text/css" href="agencement_flex.css" />
+
+    <!-- Pour l'icone menu de la version mobile-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+
+    <header class="header">
+        <h1 class="logo">GANTT project using the PERT method</h1>
+        <nav id="navi" class="navi">
+            <div class="options">
+                <span class="botton" onclick="myFunction()"><i class="fa fa-bars"></i></span>
+                <div class="options2">
+                    <a href="index.html">Home</a>
+                    <a href="reponses.php">Diagram</a>
+                    <a href="info.html">Info</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+
+    <!-- PAGE A STRUCTURER -->
+    <!--<img src="illustration1.png" alt="illustration1" style="width:250px;height:250px;">-->
+
+
+    <!-- *********************************************************** -->
+    <div class="content">
+        <section>
+            <div class="leftside"><img src="illustration1.png"></div>
+            <div class="rightside">
+            	<h1>Introduction</h1>
+                <p>this is a presnation of the GANTT project using the PERT method. 
+                the source code is written in C language.
+                I have chosen this programming language because I had already studied it before starting this cours.
+                    <p>
+            </div>
+        </section>
+
+        <section>
+        	
+            <div class="leftside"><img src="illustration2.png"></div>
+            <div class="rightside">
+            	<h1>Presentation of the Code</h1>
+                <p> - The code contents of two principal files ( taskArray.c and taskArrayStat.c) in which I wrote
+                the functions that calculate the dates, organise the relation between the diferent task depending on
+                 the matrix of independency and finally translate those relation into a diagram.
+                
+                    <p>
+            </div>
+        </section>
+
+    </div>
+
+    <script>
+        function myFunction() {
+            var x = document.getElementById("navi");
+            if (x.className === "navi") {
+                x.className += " responsive";
+            } else {
+                x.className = "navi";
+            }
+        }
+    </script>
+
+</body>
+
+</html>
